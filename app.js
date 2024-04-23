@@ -15,11 +15,11 @@ app. get ("/", (req,res)=>{
     res. json(usuario);
 });
 
-app. post("/gordo", (req,res)=>{
+app. post("/ejemplo2", (req,res)=>{
     res. send("hola haniel");
 });
 
-app. put("/gordo", (req,res)=>{
+app. put("/ejemplo1", (req,res)=>{
     res. send("hola Fernando");
 });
 
