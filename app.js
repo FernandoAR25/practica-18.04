@@ -9,8 +9,8 @@ app.use ((req,res,next)=>{
 app. get ("/", (req,res)=>{
     const usuario ={
         metodo:"get",
-        nombre:"B",
-        role:"C",
+        nombre:"Desarrollo web",
+        Practica:"2.1",
     };
     res. json(usuario);
 });
